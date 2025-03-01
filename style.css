@@ -1,0 +1,38 @@
+.div{
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+.li{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+.li:first-child{
+    background-color: brown;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 2;
+}
+
+.li:nth-child(2){
+    background-color: red;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    z-index: 5;
+}
+
+.li:nth-child(3){
+    background-color: blue;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 4;    
+}
